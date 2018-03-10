@@ -1,0 +1,7 @@
+server:
+  port: 8080
+# 配置people的属性
+people:
+  name: snipe
+  age: 20
+  weight: 60

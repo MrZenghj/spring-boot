@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dbspringboot #你自己的数据库
+    username: root  #登录名
+    password: root  #密码
+  jpa:
+    hibernate:
+      ddl-auto: update  #create 每次启动都创建，update 更新
+    show-sql: true
+
