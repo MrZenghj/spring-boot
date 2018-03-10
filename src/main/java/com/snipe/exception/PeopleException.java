@@ -10,7 +10,9 @@ import com.snipe.enums.ResultEnum;
 public class PeopleException extends RuntimeException{
     //错误代码
     private Integer code;
-
+    /**
+     *  @param resultEnum 传入对应的枚举信息
+    */
     public PeopleException(ResultEnum resultEnum) {
         super(resultEnum.getMessage());
         this.code = resultEnum.getCode();
